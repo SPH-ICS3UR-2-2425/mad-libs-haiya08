@@ -17,7 +17,13 @@ public class Main {
 		System.out.println("What's your name?");
 		String name = in.nextLine();
 		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
-
+		
+		int num1 = in.nextInt();
+		
+		
+		String verb1;
+		String person;
+		System.out.println ("One day while "+verb1+" to class, "+person+" tripped on a fruit peel and fell into a bicycle rack!");
 	}
 
 }
